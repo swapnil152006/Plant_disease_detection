@@ -21,7 +21,7 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About","Disease Recogniti
 if(app_mode=="Home"):
     st.header("PLANT DISEASE RECOGNITION SYSTEM")
     image_path = "Home_page.jpeg"
-    st.image(image_path,use_column_width=True)
+    st.image(image_path,use_column_width=True) 
     st.markdown("""
     Welcome to the Plant Disease Recognition System! 🌿🔍
     
@@ -56,7 +56,6 @@ elif(app_mode=="About"):
                 1. train (70295 images)
                 2. test (33 images)
                 3. validation (17572 images)
-
                 """)
 
 #Prediction Page
@@ -84,5 +83,5 @@ elif(app_mode=="Disease Recognition"):
                     'Tomato___Early_blight', 'Tomato___Late_blight', 'Tomato___Leaf_Mold', 
                     'Tomato___Septoria_leaf_spot', 'Tomato___Spider_mites Two-spotted_spider_mite', 
                     'Tomato___Target_Spot', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus',
-                      'Tomato___healthy']
+                    'Tomato___healthy']
         st.success("Model is Predicting it's a {}".format(class_name[result_index]))

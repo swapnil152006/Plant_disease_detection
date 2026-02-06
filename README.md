@@ -25,7 +25,8 @@ Plant_disease_detection/
 ## 🚀 Installation & Usage
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/archisha-codes/Plant_disease_detection.git
+# git clone https://github.com/archisha-codes/Plant_disease_detection.git
+git clone https://github.com/swapnil152006/stream.git
 cd Plant_disease_detection
 ```
 
