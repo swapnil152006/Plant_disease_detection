@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run the Application
 ```sh
-streamlit main.py
+streamlit run main.py
 ```
 
 ### 4️⃣ Access the Web Interface (If applicable)
